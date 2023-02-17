@@ -15,6 +15,7 @@ Intodução ao Machine learning
 Scikit-learnig - Prática
 -- https://www.youtube.com/watch?v=QtL2mibXDBE -- Aula 1
 -- https://www.youtube.com/watch?v=hjt_K0gH-i4 -- Aula 2
+--  https://www.youtube.com/watch?v=Qva9cauGxgU -- Aula 3
 
 
 
