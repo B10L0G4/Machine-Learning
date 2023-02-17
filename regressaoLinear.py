@@ -17,3 +17,7 @@ print('score', reg.score(x,y))
 #predict é usado para fazer previsões com o modelo treinado 
 
 print('previsão', reg.predict(np.array([[5]])))
+
+#r2 score é uma medida de quão bem o modelo se ajusta aos dados , quando mais proximo de 1 melhor é e quanto mais proximo de 0 pior é , o modelo r2 é uma forma de avaliar o modelo de regrassão e é calculado da sehuinte forma: 
+#r2 = 1 - (SSres/SStot)
+#onde SSres é a soma dos quadrados dos residuos e SSTat é a soma dos quadrados totais. 
