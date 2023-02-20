@@ -17,8 +17,14 @@
 >>#### Quando não usar machine learning?
 >> - Quando o problema é simples e tem uma solução clara.
 
-### Ingrediente que compõem um problema de machine learning 
-    
+### As variavies que compõem um problema de machine learning 
+> - As variaveis que compõem um problema de machine learning são:
+    - Dados de treinamento
+    - Algoritimo de aprendizado
+    - Função de custo
+    - Função de predição
+
+
 
 ## **História** : 
 
