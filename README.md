@@ -19,10 +19,11 @@
 
 ### As variavies que compõem um problema de machine learning 
 > - As variaveis que compõem um problema de machine learning são:
-    - Dados de treinamento
-    - Algoritimo de aprendizado
-    - Função de custo
-    - Função de predição
+>  - Variaveis de entrada (features)
+>  - Dados de treinamento
+>  - Algoritimo de aprendizado
+>  - Função de custo
+>  - Função de predição
 
 
 
