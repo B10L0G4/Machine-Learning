@@ -13,18 +13,18 @@
 > - Aprendizado é o processo de adiquirir conhecimento ou habilidade por meio de estudo, experiencia ou instrução.
 > - Aprendizado para um programa são caracteristicas que o algoritmo consegue identificar e generalizar o aprendizado para entrgar a resposta esperada para um problema. 
 >>#### Quando usar machine learning?
-> - Quando o problema é complexo e não tem uma solução simples ou clara. 
+>> - Quando o problema é complexo e não tem uma solução simples ou clara. 
 >>#### Quando não usar machine learning?
-> - Quando o problema é simples e tem uma solução clara.
+>> - Quando o problema é simples e tem uma solução clara.
 
 ### Ingrediente que compõem um problema de machine learning 
     
 
 ## **História** : 
 
-> Deu inicio em 1913 com as cadeias de Markov propos um modelo matematico de previsão de estados , ou seja ele aprende com o passado e preve o futuro. Ele uso apenas o estado anterior para prever o proximo estado. 
+> -- Deu inicio em 1913 com as cadeias de Markov propos um modelo matematico de previsão de estados , ou seja ele aprende com o passado e preve o futuro. Ele uso apenas o estado anterior para prever o proximo estado. 
 
-> Em 1920 o matematico Norbert Wiener propôs o conceito de aprendizado de maquina. -- verificar 
+> -- Em 1920 o matematico Norbert Wiener propôs o conceito de aprendizado de maquina. -- verificar 
 
 > Em 1936 Alan Turing propos o artigo 'On Computer Number "que aprenseta o conceito de uma maquina que poderia resolver qaulquer problema matematico. 
 
