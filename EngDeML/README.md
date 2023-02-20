@@ -5,6 +5,11 @@ Fundamentos de MAchine Learning
 O que é Machine Learnign ?
     Machine LEarnign ou aprendizado de maquina são algoritmos que aprendem com a experiencia ou seja com os dadso fornecidos.
 
+O que é aprendizado? 
+    Aprendizado é o processo de adiquirir conhecimento ou habilidade por meio de estudo, experiencia ou instrução.
+
+
+
 História : 
 
 ## Deu inicio em 1913 com as cadeias de Markov propos um modelo matematico de previsão de estados , ou seja ele aprende com o passado e preve o futuro. Ele uso apenas o estado anterior para prever o proximo estado. 
