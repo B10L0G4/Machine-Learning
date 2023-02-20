@@ -25,7 +25,21 @@
 >  - Função de custo
 >  - Função de predição
 
+### Tipos de Aprendizado 
+> - Aprendizado Supervisionado : recebe dados rotulados e aprende a prever a saida para novos dados. Recebe entrada 
+>  - Aprendizado não Supervisionado:  não recebe dados roptulados e aprende a estruturar os dados.Não recebe entrada.
+>  - Aprendizado por reforço: recebe uma recompensas , é inserido em um ambiente e aprende a tomar ações que maximizam a recompesa. 
+>  - 
+>  - 
+>  -
 
+### Tipos de Aprendizado 
+> - 
+>  - 
+>  - 
+>  - 
+>  - 
+>  -
 
 ## **História** : 
 
