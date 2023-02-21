@@ -18,7 +18,7 @@
 >> - Quando o problema é simples e tem uma solução clara.
 
 ### As variavies que compõem um problema de machine learning 
-> - As variaveis que compõem um problema de machine learning são:
+> 
 >  - Variaveis de entrada (features)
 >  - Dados de treinamento
 >  - Algoritimo de aprendizado
@@ -26,11 +26,17 @@
 >  - Função de predição
 
 ### Tipos de Aprendizado 
-> - Aprendizado Supervisionado : recebe dados rotulados e aprende a prever a saida para novos dados. Recebe entrada 
->  - Aprendizado não Supervisionado:  não recebe dados roptulados e aprende a estruturar os dados.Não recebe entrada.
->  - Aprendizado por reforço: recebe uma recompensas , é inserido em um ambiente e aprende a tomar ações que maximizam a recompesa. 
->  - 
->  - 
+>  - Aprendizado Supervisionado : recebe dados rotulados e aprende a prever a saida para novos dados. Recebe entrada.Apresenta conjuntos de instâncias/valores para que o modelo aprenda.   
+> - Aprende conceitos, recebe instruções e a partir das informações recebidas/aprendidas, quando essas informações são informadas ele consegue identificar as caracteristicas a partir do aprendizado previo. 
+
+>  - Aprendizado não Supervisionado:  não recebe dados roptulados e aprende a estruturar os dados.Não recebe entrada ou saída.Não recebe labels. Ele identifica a partir dos dados e identifica as caracteristicas distintas. 
+
+>  - Aprendizado por reforço: recebe uma recompensas, é inserido em um ambiente e aprende a tomar ações que maximizam a recompesa. 
+
+
+>  ## Overfiting e Underfiting  
+>
+>  -  
 >  -
 
 ### Tipos de Aprendizado 
