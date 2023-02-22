@@ -58,7 +58,10 @@ O que buscamos quando com uma aplicação de ML?
 >  -Modelo Balanceado 
 >> - o modelo deve apresentar um resukltado adequado e possui capacidade generalizada para novos dados. 
 
-
+> **O dilema BIAS e VARIANCIA**
+>>- O BIAS é  diferença entre o valor esperado do modelo e o valor correto. 
+>> - Variancia é a variação do modelo para um conjunto de dados. 
+> O que é dilema de bias e variancia,  é o conflito entre o erro de bias e o erro de variancia. Qaundo é o bias é baixo a variancia é alta e vice versa, sempre que um é baixo um é alto e será necessario um tradeoff entre eles ( tradeoff é a troca de um por outro)
 
 ### Tipos de Aprendizado 
 > - 
