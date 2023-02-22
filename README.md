@@ -33,10 +33,10 @@
 
 >  - Aprendizado por reforço: recebe uma recompensas, é inserido em um ambiente e aprende a tomar ações que maximizam a recompesa. 
 
-O que buscamos quando com uma aplicação de ML?
-  Resolver uam tarefa com a melhor assertividade possivél.
-  O modelo deve ser capaz de se adaptar a novos dados 
-  O modelo deve ser capaz de generalizar a partir dos dados de treinamento. (treinar um modelo é ajusatar os parametros do modelo para que ele se adeque aos dados de treinamento.)
+> ### O que buscamos quando com uma aplicação de ML?
+> Resolver uam tarefa com a melhor assertividade possivél.
+> O modelo deve ser capaz de se adaptar a novos dados 
+>O modelo deve ser capaz de generalizar a partir dos dados de treinamento. (treinar um modelo é ajusatar os parametros do modelo para que ele se adeque aos dados de treinamento.)
 
 >  ## Overfiting, Underfiting e modelo balanceado 
 >
