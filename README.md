@@ -33,11 +33,18 @@
 
 >  - Aprendizado por reforço: recebe uma recompensas, é inserido em um ambiente e aprende a tomar ações que maximizam a recompesa. 
 
+O que buscamos quando com uma aplicação de ML?
+  Resolver uam tarefa com a melhor assertividade possivél.
+  O modelo deve ser capaz de se adaptar a novos dados 
+  O modelo deve ser capaz de generalizar a partir dos dados de treinamento. (treinar um modelo é ajusatar os parametros do modelo para que ele se adeque aos dados de treinamento.)
 
->  ## Overfiting e Underfiting  
+>  ## Overfiting, Underfiting e modelo balanceado 
 >
->  -  
->  -
+>  -  O que Overfitting ?
+>     - Ocorre quando o modelo se ajusta muito bem aos dados de treinamento, mas não generaliza bem para dados novos.
+>     - Repesenta o sobreajuste do modelo a um conjunto de dados . 
+>     - Leva a perda da capacidade de generalizar novos dados.  
+>     - Ele memoriza algumas instancias do treinamento e quando é apresentado a novos conjuntos ele não consegue generalizar. 
 
 ### Tipos de Aprendizado 
 > - 
