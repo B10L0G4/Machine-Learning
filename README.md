@@ -77,9 +77,17 @@
 
 ### Transformação
 >  - È um forma de transforma os dados de entrada em uma forma que o modelo seja trasformado em uma forma linear e deixar o modelo mais simples. 
->  - 
->  - 
->  -
+
+### Passos para escolha de modelos 
+>  - 0 - Conhecer o Problema (analisar o problema)
+>> - a partie a analise do problema , identificaremos o modelo "ideal" para a resolução da tarefa , restrições,caracteristicas, tipos de dados a serem coletados.  
+>  - 1 - Coleta de daods - procurar as fontes de dados para resolver a tarefa 
+>  - 2 - Prearação dos dados, adequar o formato dos dados para o modelo. (limpesa dos dados)
+>  - 3 - Escolha do modelo - treinar o modelo com o dados preparados.  
+>  - 4 - avaliação e sintonia de parametros - analisar o resultado do modelo e ajustar os parametros para melhorar o resultado. 
+>  - 5 - Deploy - colocar o modelo em produção. 
+
+
 ### Tipos de Aprendizado 
 > - 
 >  - 
