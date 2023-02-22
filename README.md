@@ -45,6 +45,20 @@ O que buscamos quando com uma aplicação de ML?
 >     - Repesenta o sobreajuste do modelo a um conjunto de dados . 
 >     - Leva a perda da capacidade de generalizar novos dados.  
 >     - Ele memoriza algumas instancias do treinamento e quando é apresentado a novos conjuntos ele não consegue generalizar. 
+>
+>> ### **Como evitar o Overfitting**? 
+>   - Dividir os dados de treinamento e teste (80% - 20%)
+>   - Cross-Validation ( validação cruzada), é um método de avaliação de modelos que consiste em dividir o conjunto de dados em k partesm treinar o modelo em k-1 partes e testar em uma parte.  
+>   - Regularização, é um mérodo que impõe uma penalidade aos coeficientes do modelo reduzindo a complexidade do modelo.
+>   - Remover neuronios/camadas de redes neurais (dropout), é um método que consiste em remover aleatoriamente alguns neuronios de uma rede neural durante o treinamento.
+>   - Aplicar a 'parada precoce'( early stopping)é um método que consiste em parar o treinamento quando o modelo não aprensemta mais melhora no conjunto de vakidação.
+>  ### **O que Underfiting**? 
+>> - A tarefa possui maior complexidade de que o modelo é capaz de resolver. 
+
+>  -Modelo Balanceado 
+>> - o modelo deve apresentar um resukltado adequado e possui capacidade generalizada para novos dados. 
+
+
 
 ### Tipos de Aprendizado 
 > - 
