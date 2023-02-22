@@ -98,7 +98,7 @@
 >> - **Valor** - utilidade dos dados - dados que podem ser utilizados para tomada de decisão.
 >
 
-### FrameWorks 
+### FrameWorks de desenvolvimento
 >  - **Anacaonda** - é um ambiente de desenvolvimento integrado (IDE) para a linguagem de programação Python e R. 
 >  - **Kaggle** - é uma plataforma de ciência de dados e aprendizado de máquina que permite que os usuários compartilhem dados, códigos e análises.
 >  - **Spark** - é um framework de processamento de dados em cluster, que permite a execução de aplicações em paralelo em um cluster de computadores.
