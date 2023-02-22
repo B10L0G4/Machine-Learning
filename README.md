@@ -63,6 +63,14 @@
 >> - Variancia é a variação do modelo para um conjunto de dados. 
 > O que é dilema de bias e variancia,  é o conflito entre o erro de bias e o erro de variancia. Qaundo é o bias é baixo a variancia é alta e vice versa, sempre que um é baixo um é alto e será necessario um tradeoff entre eles ( tradeoff é a troca de um por outro)
 
+
+### O que é dimensionamento ? 
+>  - Dimensionalidade representa as dimensões espacial dos dados.  Podemos trabalhar em dimensões de 1 a 3 ( 1- linha, 2 - plano(x,y), 3 -cubo (x,y,z)).Um espaço multimensional não são vários datasets(conjunto de dados) , e sim um conjunto de dados com várias dimensões. 
+>  - Cada dimensão perpendicular a outras.
+>  - no dataset as colunas representam as caracteristicas e as instancias são as linhas. 
+>  - O numero de colunas pode ser a repsentatividade das dimensões.  
+>  - 
+>  -
 ### Tipos de Aprendizado 
 > - 
 >  - 
