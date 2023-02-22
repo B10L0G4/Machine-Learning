@@ -97,11 +97,17 @@
 >> - **Veracidade** - qualidade dos dados - dados faltantes, dados duplicados, dados inconsistentes, dados incorretos. 
 >> - **Valor** - utilidade dos dados - dados que podem ser utilizados para tomada de decisão.
 >
->  - 
->  - 
+
+### FrameWorks 
+>  - **Anacaonda** - é um ambiente de desenvolvimento integrado (IDE) para a linguagem de programação Python e R. 
+>  - **Kaggle** - é uma plataforma de ciência de dados e aprendizado de máquina que permite que os usuários compartilhem dados, códigos e análises.
+>  - **Spark** - é um framework de processamento de dados em cluster, que permite a execução de aplicações em paralelo em um cluster de computadores.
+>  - **databricks** - é uma plataforma de computação em nuvem que permite a execução de aplicações em cluster de computadores.
+>  - **Azure Machine Learning** - permite a criação de modelos.(pago)
+>  - **AWS Machine Learning** - é uma plataforma de computação em nuvem que permite a execução de aplicações em cluster de computadores.(pago)
+>  - **H2O** - ferramenta de aprendizado de máquina de código aberto que permite a execução de aplicações em cluster de computadores.
 >  - 
 >  -
-
 ### Tipos de Aprendizado 
 > - 
 >  - 
