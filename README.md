@@ -69,6 +69,15 @@
 >  - Cada dimensão perpendicular a outras.
 >  - no dataset as colunas representam as caracteristicas e as instancias são as linhas. 
 >  - O numero de colunas pode ser a repsentatividade das dimensões.  
+
+
+### Linear e não linear 
+>  - Um modelo linear é um modelo que pode ser representado por uma equação linear.
+>  - Um modelo não linear é um modelo que não pode ser representado por uma equação linear.
+
+### Transformação
+>  - È um forma de transforma os dados de entrada em uma forma que o modelo seja trasformado em uma forma linear e deixar o modelo mais simples. 
+>  - 
 >  - 
 >  -
 ### Tipos de Aprendizado 
