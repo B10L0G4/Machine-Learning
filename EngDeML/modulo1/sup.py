@@ -44,5 +44,13 @@ leg = ax.legend(loc="lower right" )# definne a localização da legenda
 df_naoSupervi.plot.scatter(x= 'Comp. Sepalas (cm)',y='Larg. Sepalas (cm)', marker= 'o')
 
 
-plt.show() # exibe o gráfico em uma nova janela
+#plt.show() # exibe o gráfico em uma nova janela
+
+#criando um novc dataset 
+
+df_supervi_new = df_supervi.copy() #copia o dataset para um novo dataset 
+
+df_supervi_new['new_column']=df_supervi['Comp. Sepalas (cm)']/100 # cria uma nova coluna no dataset
+
+print(df_supervi_new.head()) # imprie os primeiros 5 valores com a nova coluna
 
