@@ -50,7 +50,10 @@ df_naoSupervi.plot.scatter(x= 'Comp. Sepalas (cm)',y='Larg. Sepalas (cm)', marke
 
 df_supervi_new = df_supervi.copy() #copia o dataset para um novo dataset 
 
-df_supervi_new['new_column']=df_supervi['Comp. Sepalas (cm)']/100 # cria uma nova coluna no dataset
+df_supervi_new['new_col']=df_supervi['Comp. Sepalas (cm)']/100 # cria uma nova coluna no dataset
 
 print(df_supervi_new.head()) # imprie os primeiros 5 valores com a nova coluna
 
+df_supervi_new.rename(columns={'new_col':'Comp. Sepalas (m)'},inplace=True) #renomeia a coluna criada, o onplace = true faz a alteração no dataset original
+
+df_supervi_new.to_csv('df_modificado.csv',index=False) #salva o datset modificado em um novo arquivo csv , o index=false retira o indice do dataset. 
