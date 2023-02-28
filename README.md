@@ -186,6 +186,20 @@
 > - Reconhecimento de voz - é a capacidade de uma sistema de computador de reconhecer e interpretar falas humanas. 
 
 
+### Analise de Sentimento
+> - O que é analise de sentimento ?
+>> - é a tarefa de identificar e extrair opiniões, sentimentos e emoções expressões em textos ou seja analisar os sentimentos dos usuarios a partir de textos e avaliações. 
+>  - Desenvolvimento de aplicações - 
+>> - Devemos retirar, emoticons, extensoes de arquivos, links, www e  etc. Normalização de textos, deixar todos os caracteres em caixa 
+baixa por eexemplo
+>> Tokenização de palavras dividir o texto em palavras 
+remoção de stopwordsd, são palavras que dão pouco ou nenhum significado ao texto
+>> Stemização / lematização , são palavras que possuim mesmo sentido nas escritas de diferentes formas. ( na lematização temos a necessidade de ter a palavra no final da lematização ( gatos, gatinhas = gato) , já no Stening iremos pegar a raiz da palavra (gato = gat) )
+>> Tranformação dos textos em vetores : é o processo de transformar o texto em vetor numerico.
+> - Bag of works - é um modelo de representação de textos que descreve a ocorrencia de Palavras em um texto. Textos são trnsformados em, palavras e a frequencia de cada palavra é contado. 
+> - word to vec  - é um modelo que mantem o modelo de contexto das palavras. Mantem o conceito de vetor e agrupa palavras que possuem o mesmo significado/similaridade.Assim é possuvél fazer operações com as palavras eobter resultados semanticos. 
+> -  Aplicação Conceitual : após o pré processamente dos dados, podemos aplicar algoritmos de classificação para classificar os textos em positivos ou negativos. 
+
 
 ## **História** : 
 
