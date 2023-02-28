@@ -162,7 +162,10 @@
 >
 > - Regressão x classificação  : na classificação temos classes distintas , temos quantidas finitas. Na regressão temos calores infinitos possiveis.
 > - Correlação : é uma medida de dependencia entre duas variaveis.Avaliamos o grau de relacionamento ente variaveis . Se aumenta uma variavel a outra diminui.
- 
+>> -Corrrelação de Piersson - é uma medida de correlação que varia de -1 a 1. 
+>> - Correlação de Spearman - 
+>> - Correlação de Kendall - 
+
   
 ### Tipos de Aprendizado 
 > - 
