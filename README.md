@@ -200,6 +200,14 @@ remoção de stopwordsd, são palavras que dão pouco ou nenhum significado ao t
 > - word to vec  - é um modelo que mantem o modelo de contexto das palavras. Mantem o conceito de vetor e agrupa palavras que possuem o mesmo significado/similaridade.Assim é possuvél fazer operações com as palavras eobter resultados semanticos. 
 > -  Aplicação Conceitual : após o pré processamente dos dados, podemos aplicar algoritmos de classificação para classificar os textos em positivos ou negativos. 
 
+### Series Temporais
+>
+> - O que é uma serie temporal ? 
+>> - é uma sequencia de valores que possuem uma certa dependencia. 
+>> - autocorrelação - é a correlação entre os valores dentro de uma série temporal, ou seja a correlção vem de dentro da série temporal ( valor atual com valor passado )
+> - Serie Estacionaria : é uma série temporal que não apresenta tendência ou sazonalidade, a estrutura varia com o tempo. 
+> - Tendecia : é uma tendencia de crescimento ou descrecimento da serie temporal. 
+> - variancia constante - a variancia da serie temporal é constante ao longo do tempo.  
 
 ## **História** : 
 
