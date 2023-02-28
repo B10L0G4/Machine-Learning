@@ -151,8 +151,19 @@
 > - Aplicações: Sistemas de recomendação , Segmentação de Clientes, Segmentaçãi de imagens, Detecção de anomalias, Detecção de Frauedes. 
 
 
+### Regressão 
 
-
+> - O que é Regressão : são tarefas que a saida (label) apresenta valores infinitos(continuos) possiveis. 
+> - Variavel Dependente : saida, target ou resposta , são variaveis que queremos prever. 
+> - Variaveis independentes : entradas , preditivas ou explicativas , são variaveis que utilizamos para prever a resposta. 
+> - Exemplos: Regressão Linear - é uma linha, encontramos a linha que melhor se ajusta aos dados.
+> - Regressão Logistica - é uma curva, encontramos a curva que melhor se ajusta aos dados.
+> - Regressão Polinomial - é uma curva polinomial, encontramos a curva que melhor se ajusta aos dados.
+>
+> - Regressão x classificação  : na classificação temos classes distintas , temos quantidas finitas. Na regressão temos calores infinitos possiveis.
+> - Correlação : é uma medida de dependencia entre duas variaveis.Avaliamos o grau de relacionamento ente variaveis . Se aumenta uma variavel a outra diminui.
+ 
+  
 ### Tipos de Aprendizado 
 > - 
 >  - 
