@@ -177,7 +177,15 @@
 >  - O que é um sistema de recomendação ?
 >> - é um sistema que identifica padrões de similaridas entre itens e recomenda itens similares a um usuario. É responsavél por recomendar produtos, filmes, musicas, etc, com caracteristicas similares. 
 >  - tipos de sistemas de recomensação : Baseada no usuario - recomenda itens que outros usuarios com perfis similares gostaram. Baseada em conteudo - recomenda itens que tem caracteristicas similares aos itens que o usuario gostou. Baseada em modelo - recomenda itens que tem caracteristicas similares aos itens que o usuario gostou. 
->  - 
+
+### Processamento de Linguagem Natural - NLP 
+>  - O que é NLP ?
+>> - e uma area da IA que estuda a interação entre computadores e linguagem humana. 
+>> - O objetivo é criar sistemas que possam entender e gerar linguagem humana. A base da PLN é a transformação da base de conhecimento em dados computacionais (numericos)
+> - Chatbots - são sistemas que simulam conversas com humanos. 
+> - Reconhecimento de voz - é a capacidade de uma sistema de computador de reconhecer e interpretar falas humanas. 
+
+
 
 ## **História** : 
 
