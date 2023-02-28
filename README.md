@@ -171,9 +171,13 @@
 >> é uma tarefa de aprendizado de maquina que tem como objetivo identificar padrões em dados. 
 >  - Reconhecimento de padrões - reconhece de maneira rapida e precisa, recenhecer padrões não familiares, reconhecer formas e objetos de diferentes angulos e tamanhos, identificar objetos mesmo que sobrepostos.  
 >  - onde encontramos, visão computacional, identificação de objetos, speech recognition, analise de sinais.  
+
+### Sistemas de Recomendação 
+>
+>  - O que é um sistema de recomendação ?
+>> - é um sistema que identifica padrões de similaridas entre itens e recomenda itens similares a um usuario. É responsavél por recomendar produtos, filmes, musicas, etc, com caracteristicas similares. 
+>  - tipos de sistemas de recomensação : Baseada no usuario - recomenda itens que outros usuarios com perfis similares gostaram. Baseada em conteudo - recomenda itens que tem caracteristicas similares aos itens que o usuario gostou. Baseada em modelo - recomenda itens que tem caracteristicas similares aos itens que o usuario gostou. 
 >  - 
->  - 
->  -
 
 ## **História** : 
 
