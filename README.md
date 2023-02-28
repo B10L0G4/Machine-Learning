@@ -209,6 +209,23 @@ remoção de stopwordsd, são palavras que dão pouco ou nenhum significado ao t
 > - Tendecia : é uma tendencia de crescimento ou descrecimento da serie temporal. 
 > - variancia constante - a variancia da serie temporal é constante ao longo do tempo.  
 
+
+### Visão Computacional 
+> 
+> - O que é visão computacional ?
+>> é a capacidade de um computador de entender e processar imagens como se fossem humanos. Corresponde a analise, compreensão e interpretação de imagens. 
+> - Todos esses processos devem ocorrer de forma automatica, sem a necessidade de intervenção humana. 
+> - Classificação de imagens - é a tarefa de classificar imagens em categorias.
+> - Classificação + localização : é a tarefa de identificar e localizar objetos em imagens.
+> - Detecção de objetos - é a tarefa de identificar objetos em imagens, a partir de uma imagem com mais de um objeto.
+> - Segmentação de imagens - é a tarefa de dividir uma imagem em regiões de interesse, identifica a partir dos contornos das imagens.
+> - Reconhecimento facial - é a tarefa de identificar uma pessoa em uma imagem.
+> - Algoritmos utilizados : Algoritmos utilizados, redes neurais convcionais. 
+> - YOLO - é um algoritmo de detecção de objeto que é capaz de detectar objetos em imagens e videos em tempo real. Utiliza apneas uma rede neural. 
+
+
+
+
 ## **História** : 
 
 > De 1913 a 1980 (o aprendizado de maquina foi um campo de estudo que se desenvolveu em paralelo com a inteligencia artificial.)
