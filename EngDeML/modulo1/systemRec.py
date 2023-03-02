@@ -41,5 +41,19 @@ ratings['rating'].hist(bins=70)
 
 plt.show()# plota os dados em uma nova janela 
 
+# Construção de matriz de relacionamento entre os filmes e os usuários
+
+movie_rating_matrix = movie_ratings.pivot_table(index='userId', columns='title', values='ratings') #cria uma matriz com os dados de avaliação dos filmes, onde matrix é o nome da matriz, pivot_table é uma função que cria uma matriz, index='userId' define a coluna que será usada como index, columns='title' define a coluna que será usada como coluna, values='ratings' define a coluna que será usada como valores
+
+movie_rating_matrix.tail() #mostra os ultimos dados da matriz
+
+movie_corr_matrix =movie_rating_matrix.corr()  #cria uma matriz de correlação entre os filmes, onde movie_corr_matrix é o nome da matriz, corr() é uma função que cria uma matriz de correlação
+movie_corr_matrix.head()
+
+#refina matriz de correlação 
+movie_corr_matrix = movie_rating_matrix.corr(method='pearson', min_periods=50) #utiliza o metodo de pearsonpara gerar a correlação.
+# method='pearson' define o método de correlação, min_periods=50 define a quantidade mínima de avaliações que um filme deve ter para ser considerado na matriz de correlação
+
+
 
 
