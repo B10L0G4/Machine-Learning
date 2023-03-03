@@ -17,6 +17,8 @@
 >>#### Quando não usar machine learning?
 >> - Quando o problema é simples e tem uma solução clara.
 
+- **o q é um algoritmo de aprendizado de maquina ? ele melhora o desempenho para uma melhor experiencia ( fica cada vez mais proximo do resulktado correto)**
+
 ### As variavies que compõem um problema de machine learning 
 > 
 >  - Variaveis de entrada (features)
@@ -38,31 +40,9 @@
 > O modelo deve ser capaz de se adaptar a novos dados 
 >O modelo deve ser capaz de generalizar a partir dos dados de treinamento. (treinar um modelo é ajusatar os parametros do modelo para que ele se adeque aos dados de treinamento.)
 
->  ## Overfiting, Underfiting e modelo balanceado 
->
->  -  O que Overfitting ?
->     - Ocorre quando o modelo se ajusta muito bem aos dados de treinamento, mas não generaliza bem para dados novos.
->     - Repesenta o sobreajuste do modelo a um conjunto de dados . 
->     - Leva a perda da capacidade de generalizar novos dados.  
->     - Ele memoriza algumas instancias do treinamento e quando é apresentado a novos conjuntos ele não consegue generalizar. 
->
->> ### **Como evitar o Overfitting**? 
->   - Dividir os dados de treinamento e teste (80% - 20%)
->   - Cross-Validation ( validação cruzada), é um método de avaliação de modelos que consiste em dividir o conjunto de dados em k partesm treinar o modelo em k-1 partes e testar em uma parte.  
->   - Regularização, é um mérodo que impõe uma penalidade aos coeficientes do modelo reduzindo a complexidade do modelo.
->   - Remover neuronios/camadas de redes neurais (dropout), é um método que consiste em remover aleatoriamente alguns neuronios de uma rede neural durante o treinamento.
->   - Aplicar a 'parada precoce'( early stopping)é um método que consiste em parar o treinamento quando o modelo não aprensemta mais melhora no conjunto de vakidação.
->  ### **O que Underfiting**? 
->> - A tarefa possui maior complexidade de que o modelo é capaz de resolver. 
-
->  -Modelo Balanceado 
->> - o modelo deve apresentar um resukltado adequado e possui capacidade generalizada para novos dados. 
-
-> **O dilema BIAS e VARIANCIA**
->>- O BIAS é  diferença entre o valor esperado do modelo e o valor correto. 
->> - Variancia é a variação do modelo para um conjunto de dados. 
-> O que é dilema de bias e variancia,  é o conflito entre o erro de bias e o erro de variancia. Qaundo é o bias é baixo a variancia é alta e vice versa, sempre que um é baixo um é alto e será necessario um tradeoff entre eles ( tradeoff é a troca de um por outro)
-
+# Entendimento do Problema
+> - Entender o problema é uma das partes essenciais para o sucesso de um projeto. 
+> - A avaliação do probelma nós dá a visão de qual tipo de algoritmo utilizar. 
 
 ### O que é dimensionamento ? 
 >  - Dimensionalidade representa as dimensões espacial dos dados.  Podemos trabalhar em dimensões de 1 a 3 ( 1- linha, 2 - plano(x,y), 3 -cubo (x,y,z)).Um espaço multimensional não são vários datasets(conjunto de dados) , e sim um conjunto de dados com várias dimensões. 
@@ -151,20 +131,7 @@
 > - Aplicações: Sistemas de recomendação , Segmentação de Clientes, Segmentaçãi de imagens, Detecção de anomalias, Detecção de Frauedes. 
 
 
-### Regressão 
 
-> - O que é Regressão : são tarefas que a saida (label) apresenta valores infinitos(continuos) possiveis. 
-> - Variavel Dependente : saida, target ou resposta , são variaveis que queremos prever. 
-> - Variaveis independentes : entradas , preditivas ou explicativas , são variaveis que utilizamos para prever a resposta. 
-> - Exemplos: Regressão Linear - é uma linha, encontramos a linha que melhor se ajusta aos dados.
-> - Regressão Logistica - é uma curva, encontramos a curva que melhor se ajusta aos dados.
-> - Regressão Polinomial - é uma curva polinomial, encontramos a curva que melhor se ajusta aos dados.
->
-> - Regressão x classificação  : na classificação temos classes distintas , temos quantidas finitas. Na regressão temos calores infinitos possiveis.
-> - Correlação : é uma medida de dependencia entre duas variaveis.Avaliamos o grau de relacionamento ente variaveis . Se aumenta uma variavel a outra diminui.
->> -Corrrelação de Piersson - é uma medida de correlação que varia de -1 a 1. 
->> - Correlação de Spearman - 
->> - Correlação de Kendall - 
 
 ### Reconhecimento de Padrões  
 >  - O que é reconhecer padrões ? 
