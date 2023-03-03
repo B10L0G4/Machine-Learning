@@ -223,7 +223,9 @@ remoção de stopwordsd, são palavras que dão pouco ou nenhum significado ao t
 > - Algoritmos utilizados : Algoritmos utilizados, redes neurais convcionais. 
 > - YOLO - é um algoritmo de detecção de objeto que é capaz de detectar objetos em imagens e videos em tempo real. Utiliza apneas uma rede neural. 
 
-
+### Conceitos de aulas - 02/03
+> - Fundamentos
+>> - 
 
 
 ## **História** : 
