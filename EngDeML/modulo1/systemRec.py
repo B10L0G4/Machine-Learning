@@ -54,6 +54,25 @@ movie_corr_matrix.head()
 movie_corr_matrix = movie_rating_matrix.corr(method='pearson', min_periods=50) #utiliza o metodo de pearsonpara gerar a correlação.
 # method='pearson' define o método de correlação, min_periods=50 define a quantidade mínima de avaliações que um filme deve ter para ser considerado na matriz de correlação
 
+# essas analises são feitas para encontrar filmes similares , avaliando a correlação entre os filmes
+# exemplo: se um filme tem uma correlação de 0.5 com outro filme, significa que as pessoas que gostaram de um filme também gostaram do outro filme
 
+print(movie_rating_matrix.shape) # mostra a quantidade de linhas e colunas da matriz
 
+testUser = movie_rating_matrix.iloc[600].dropna() 
+testUser.head(10).sort_values(ascending=False) #mostra os 10 filmes com maior avaliação do usuario 600
+
+len(testUser)   #mostra a quantidade de filmes que o usuario 600 avaliou
+
+movie_corr_matrix[testUser.index[2].dropna().sort_values(ascending=False)]  #mostra os 10 filmes com maior correlação com o filme 2 do usuario 600)]
+#encontrando os filmes similares ao filme 2 do usuario 600
+
+similarMoviesCandidatos = pd.Series() #cria uma serie vazia
+for i in range(0, len(testUser.index)):
+    prnit("Analisando o filme: ", +testUser.index[i]+'...')
+    similar = movie_corr_matrix[testUser.index[i]].dropna()
+    similar=similar.map(lambda x : x*testUser[i]) #multiplica a correlação do filme pelo valor da avaliação do filme
+    similarMoviesCandidatos = similarMoviesCandidatos.append(similar) #adiciona os filmes similares a serie vazia
+
+    #similarMoviesCandidatos = similarMoviesCandidatos.append(movie_corr_matrix[testUser.index[i]].dropna(), ignore_index=True) #adiciona os filmes similares a serie vazia
 
