@@ -17,7 +17,7 @@ função perda : é uma função que mede o quão ruim é o modelo.
 Paramêtro é o modelo que é ajustado para minimizar a função perda.
 
 
-> - Regressão Linear Simples - é uma reta/linha, encontramos a reta que melhor se ajusta/explique aos dados. 
+
 > - Regressão Logistica - é uma curva, encontramos a curva que melhor se ajusta aos dados.
 > - Regressão Polinomial - é uma curva polinomial, encontramos a curva que melhor se ajusta aos dados.
 >
@@ -26,3 +26,6 @@ Paramêtro é o modelo que é ajustado para minimizar a função perda.
 >> -Corrrelação de Piersson - é uma medida de correlação que varia de -1 a 1. 
 >> - Correlação de Spearman - 
 >> - Correlação de Kendall - 
+
+
+> - Regressão Linear Simples - é uma reta/linha, encontramos a reta que melhor se ajusta/explique aos dados. 
