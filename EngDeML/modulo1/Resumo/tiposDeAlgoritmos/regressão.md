@@ -28,4 +28,3 @@ Paramêtro é o modelo que é ajustado para minimizar a função perda.
 >> - Correlação de Kendall - 
 
 
-> - Regressão Linear Simples - é uma reta/linha, encontramos a reta que melhor se ajusta/explique aos dados. 
