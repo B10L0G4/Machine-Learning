@@ -39,11 +39,11 @@ plt.figure(figsize=(10,4)) #cria um histograma para avaliar a distribuição das
 ratings['rating'].hist(bins=70) 
 #bins=70 define a quantidade de barras do histograma
 
-plt.show()# plota os dados em uma nova janela 
+#plt.show()# plota os dados em uma nova janela 
 
 # Construção de matriz de relacionamento entre os filmes e os usuários
 
-movie_rating_matrix = movie_ratings.pivot_table(index='userId', columns='title', values='ratings') #cria uma matriz com os dados de avaliação dos filmes, onde matrix é o nome da matriz, pivot_table é uma função que cria uma matriz, index='userId' define a coluna que será usada como index, columns='title' define a coluna que será usada como coluna, values='ratings' define a coluna que será usada como valores
+movie_rating_matrix = movie_ratings.pivot_table(index='userId', columns='title', values='rating') #cria uma matriz com os dados de avaliação dos filmes, onde matrix é o nome da matriz, pivot_table é uma função que cria uma matriz, index='userId' define a coluna que será usada como index, columns='title' define a coluna que será usada como coluna, values='ratings' define a coluna que será usada como valores
 
 movie_rating_matrix.tail() #mostra os ultimos dados da matriz
 
@@ -60,16 +60,19 @@ movie_corr_matrix = movie_rating_matrix.corr(method='pearson', min_periods=50) #
 print(movie_rating_matrix.shape) # mostra a quantidade de linhas e colunas da matriz
 
 testUser = movie_rating_matrix.iloc[600].dropna() 
-testUser.head(10).sort_values(ascending=False) #mostra os 10 filmes com maior avaliação do usuario 600
+print(testUser.head(10).sort_values(ascending=False)) #mostra os 10 filmes com maior avaliação do usuario 600
 
 len(testUser)   #mostra a quantidade de filmes que o usuario 600 avaliou
+testUser.index[2]# mostra o nome do filme 2 do usuario 600
 
-movie_corr_matrix[testUser.index[2].dropna().sort_values(ascending=False)]  #mostra os 10 filmes com maior correlação com o filme 2 do usuario 600)]
-#encontrando os filmes similares ao filme 2 do usuario 600
+testUser[2]# mostra a avaliação do filme 2 do usuario 600
+
+print(movie_corr_matrix[testUser.index[2]].dropna().sort_values(ascending=False))  
+# mostra os 10 filmes com maior correlação com o filme 2 do usuario 600)] #encontrando os filmes similares ao filme 2 do usuario 600
 
 similarMoviesCandidatos = pd.Series() #cria uma serie vazia
 for i in range(0, len(testUser.index)):
-    prnit("Analisando o filme: ", +testUser.index[i]+'...')
+    print("Analisando o filme: " +testUser.index[i]+ "...")
     similar = movie_corr_matrix[testUser.index[i]].dropna()
     similar=similar.map(lambda x : x*testUser[i]) #multiplica a correlação do filme pelo valor da avaliação do filme
     similarMoviesCandidatos = similarMoviesCandidatos.append(similar) #adiciona os filmes similares a serie vazia
@@ -90,4 +93,4 @@ filme = ['12 Angry Men(1957'] #define o nome do filme
 filme in list(testUser) #verifica se o filme já foi avaliado pelo usuario
 
 filtra_movies_recomendations=filtra_movies.sort_values(ascending=False) #ordena os filmes similares
-filtra_movies_recomendations.head(50) #mostra os 50 filmes similares com maior correlação
+print(filtra_movies_recomendations.head(50)) #mostra os 50 filmes similares com maior correlação
