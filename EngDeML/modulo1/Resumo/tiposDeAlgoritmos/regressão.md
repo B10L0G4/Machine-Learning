@@ -18,9 +18,7 @@ Paramêtro é o modelo que é ajustado para minimizar a função perda.
 
 
 
-> - Regressão Logistica - é uma curva, encontramos a curva que melhor se ajusta aos dados.
-> - Regressão Polinomial - é uma curva polinomial, encontramos a curva que melhor se ajusta aos dados.
->
+
 > - Regressão x classificação  : na classificação temos classes distintas , temos quantidas finitas. Na regressão temos calores infinitos possiveis.
 > - Correlação : é uma medida de dependencia entre duas variaveis.Avaliamos o grau de relacionamento ente variaveis . Se aumenta uma variavel a outra diminui.
 >> -Corrrelação de Piersson - é uma medida de correlação que varia de -1 a 1. 
