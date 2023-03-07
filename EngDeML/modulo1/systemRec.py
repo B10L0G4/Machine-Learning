@@ -76,3 +76,18 @@ for i in range(0, len(testUser.index)):
 
     #similarMoviesCandidatos = similarMoviesCandidatos.append(movie_corr_matrix[testUser.index[i]].dropna(), ignore_index=True) #adiciona os filmes similares a serie vazia
 
+similarMoviesCandidatos.sort_values(inplace=True, ascending=False)# ordena os filmes similares
+
+print(similarMoviesCandidatos.head(15))  #mostra os 10 filmes similares com maior correlação
+
+similarMoviesCandidatos=similarMoviesCandidatos.groupby(similarMoviesCandidatos.index).sum() #agrupa os filmes similares e soma a correlação
+similarMoviesCandidatos.sort_values(inplace=True, ascending=False) #ordena os filmes similares
+similarMoviesCandidatos.head(10) #mostra os 10 filmes similares com maior correlação
+
+filtra_movies = similarMoviesCandidatos[~similarMoviesCandidatos.index.isin(testUser.index)] #filtra os filmes similares que o usuario já avaliou
+filtra_movies.head(10) #mostra os 10 filmes similares com maior correlação
+filme = ['12 Angry Men(1957'] #define o nome do filme
+filme in list(testUser) #verifica se o filme já foi avaliado pelo usuario
+
+filtra_movies_recomendations=filtra_movies.sort_values(ascending=False) #ordena os filmes similares
+filtra_movies_recomendations.head(50) #mostra os 50 filmes similares com maior correlação
