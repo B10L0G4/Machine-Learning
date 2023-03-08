@@ -18,3 +18,7 @@
 >  - Desbalanceada : quando uma classe possui muitas instancias em releção a outra.
 >> - Algoritmos mais utilizados : Estatisticas de Amostragem - Random UnderSampling, Smote OverSampling, Cost-Logist Regression ,Cost-Support Vector Machine, Cost- Arvore de Decisao, Estatisticas de avaliação - Precision Recal F1-Score, Matris de Confusão Curva ROC. 
 >
+
+desvio padrão = sqrt(variancia) , é uma medida de dispersão dos dados em torno da média.
+utilizando desvio padrao fica assim: (x - media) / desvio padrao
+em python 
