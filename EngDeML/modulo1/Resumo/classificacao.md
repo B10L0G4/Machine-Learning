@@ -21,4 +21,10 @@
 
 desvio padrão = sqrt(variancia) , é uma medida de dispersão dos dados em torno da média.
 utilizando desvio padrao fica assim: (x - media) / desvio padrao
-em python 
+em python : src 
+from sklearn.preprocessing 
+import StandardScaler
+scaler = StandardScaler()
+scaler.fit(X_train)
+X_train = scaler.transform(X_train)
+X_test = scaler.transform(X_test)

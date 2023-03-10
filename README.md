@@ -41,6 +41,10 @@
 >O modelo deve ser capaz de generalizar a partir dos dados de treinamento. (treinar um modelo é ajusatar os parametros do modelo para que ele se adeque aos dados de treinamento.)
 
 
+> Normalização de dados - é o processo de transformar os dados em uma escala comum, sem distorcer as diferenças no intervalo de valores. 
+> Quando normalizar meus dados : sempre que os dados estiverem em escalas diferentes, as vanatagens : são que os dados são normalizados e os algoritimos de aprendizado convergem mais rapidamente.
+>  
+
 ### FrameWorks de desenvolvimento
 >  - **Anacaonda** - é um ambiente de desenvolvimento integrado (IDE) para a linguagem de programação Python e R. 
 >  - **Kaggle** - é uma plataforma de ciência de dados e aprendizado de máquina que permite que os usuários compartilhem dados, códigos e análises.
