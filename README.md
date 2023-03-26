@@ -54,9 +54,10 @@
 >  - **AWS Machine Learning** - é uma plataforma de computação em nuvem que permite a execução de aplicações em cluster de computadores.(pago)
 >  - **H2O** - ferramenta de aprendizado de máquina de código aberto que permite a execução de aplicações em cluster de computadores.
 
->  - 
 
-
+### Naive Bayes 
+> - é um algoritmo de aprendizado de máquina baseado no teorema de Bayes com uma suposição de independência entre os preditores.
+> - 
 
 ### Analise de Sentimento
 > - O que é analise de sentimento ?
@@ -122,4 +123,4 @@ remoção de stopwordsd, são palavras que dão pouco ou nenhum significado ao t
 >> - Em 2012 o algoritimo de aprendizado de maquina mais usado no mundo é o Deep Learning.
 >> - Em 2014 Goodfellow et all, demostra a construção de uma arquitetura para a geração de instancias a partir de duas redes neurais Redes GAN ( Generative Adversarial Networks) a partir de uma rede GAN é possivél gerar um algoritimo de deep face que converte rostos femininos em masculinos e vice versa. 
 
-
+>> 

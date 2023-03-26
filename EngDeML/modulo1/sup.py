@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 #Importas os data sets da pasta files
 
 df_supervi = pd.read_csv('files\iris_superv.csv')
-df_naoSupervi = pd.read_csv('files\iris_n_superv.csv')
 
 print('HEAD',df_supervi.head(),'\n') #imprime os primeiros 5 itens do dataset 
 
